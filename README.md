@@ -23,17 +23,17 @@ After downloading the repo..
 
 Step 1: Compile ARGoS-Python
 
-cd shepherding/argos-python
-mkdir build
-cd build
-cmake ..
-make
+``cd shepherding/argos-python``
+``mkdir build``
+``cd build``
+``cmake ..``
+``make``
 
 Step 2: Configuration and Run
 
 Edit experimentconfig.sh file to match your paths
 Then run an experiment
 
-cd shepherding/HelloNeighbor
-./starter -s
+``cd shepherding/HelloNeighbor``
+``./starter -s``
 
